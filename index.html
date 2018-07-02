@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+vr.maunium.net - A collection of sorted VR-related research papers.
+Copyright (C) 2016 Tulir Asokan
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html lang="en">
+<head>
+	<title>Maunium VR</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+  <meta property="og:title" content="Maunium VR"/>
+  <meta property="og:description" content="A collection of VR-related papers"/>
+  <meta property="og:url" content="https://vr.maunium.net/"/>
+  <meta property="og:image" content="https://vr.maunium.net/favicon.ico"/>
+</head>
+<body>
+	<div class="container">
+		<br/><br/><br/>
+		<div class="jumbotron">
+			<a href="#" style="color: inherit;"><h1>A collection of VR-related papers</h1></a>
+			<p>
+				Website developed for
+				<a href="final.pdf">A literature review of the effects and use cases of virtual reality</a>
+			</p>
+		</div>
+
+		<div class="search">
+			<div class="box">
+				<input type="text" id="search" placeholder="Enter search query"/>
+			</div>
+			<div class="options">
+				<b>Default search areas:</b>
+				<input type="checkbox" id="search-title" checked/>
+				<label for="search-title">Title</label>
+
+				<input type="checkbox" id="search-tags" checked/>
+				<label for="search-tags">Tags</label>
+
+				<input type="checkbox" id="search-authors" checked/>
+				<label for="search-authors">Authors</label>
+
+				<input type="checkbox" id="search-language"/>
+				<label for="search-language">Language</label>
+
+				<input type="checkbox" id="search-release"/>
+				<label for="search-release">Release Year</label>
+
+				<input type="checkbox" id="search-abstract" checked/>
+				<label for="search-abstract">Abstract</label>
+
+				<br/>
+
+				<b>Miscellaneous options:</b>
+				<input type="checkbox" id="search-instant" checked/>
+				<label for="search-instant">Instant search</label>
+			</div>
+		</div>
+
+		<div class="card-columns" id="data"></div>
+	</div>
+
+	<div id="templates">
+		<script type="text/x-handlebars" id="paper">
+			<div class="card">
+				<div class="card-block">
+					<h4 class="card-title">{{title}}</h4>
+					<h6 class="card-subtitle mb-2 text-muted">
+						<span class="authors">
+							{{#if tooManyAuthors}}
+								<span class="primary-author">
+									<a class="text-muted" href='javascript:addToSearchQuery("author", "{{mainAuthor}}")'>{{mainAuthor}}</a>
+									<a href="javascript:void('Toggle full author list')" onclick="toggleFullView($(this))">et al.</a>,
+								</span>
+								<span class="all-authors hidden">
+									{{#each authors}}
+										<a class="text-muted" href='javascript:addToSearchQuery("author", "{{this}}")'>{{this}}</a>,
+									{{/each}}
+									<a href="javascript:void('Toggle full author list')" onclick="toggleFullView($(this))">close</a>
+								</span>
+							{{else if manyAuthors}}
+								{{#each authors}}
+									<a class="text-muted" href='javascript:addToSearchQuery("author", "{{this}}")'>{{this}}</a>,
+								{{/each}}
+							{{else}}
+								<a class="text-muted" href='javascript:addToSearchQuery("author", "{{mainAuthor}}")'>{{mainAuthor}}</a>,
+							{{/if}}
+						</span>
+
+						{{#if release}}
+							(<a class="text-muted" href='javascript:addToSearchQuery("release", "{{release}}")'>{{release}}</a>)
+						{{/if}}
+					</h6>
+					<p class="card-text">
+						{{#if shortAbstract}}
+							<span class="short-abstract">
+								{{{shortAbstract}}}...
+								<br/>
+								<a href="javascript:void('Toggle full abstract')" onclick="toggleFullView($(this))">Read more</a>
+							</span>
+							<span class="full-abstract hidden">
+								{{{abstract}}}
+								<br/>
+								<a href="javascript:void('Toggle full abstract')" onclick="toggleFullView($(this))">View less</a>
+							</span>
+						{{else}}
+							{{{abstract}}}
+						{{/if}}</p>
+					<a href="{{url}}" class="btn btn-primary">
+						{{#if hasFullText}}
+							Open full text
+						{{else}}
+							Open link
+						{{/if}}
+					</a>
+					{{#if allowCachedPDFLink}}
+						{{#if cachedPDFLinkName}}
+							<!--
+							Please note that the cached files MUST NOT be used for any non-
+							personal purposes regardless  of what the original license may
+							allow.
+
+							Sharing the links or the method to view the links to any files
+							in this cache is NOT permitted.
+
+							Download the file from  the live version if you wish to use it
+							for something other than personal purposes.
+							-->
+							<a href="cache/{{cachedPDFLinkName}}.{{cacheFormat}}" class="btn btn-primary">Open cached full text</a>
+						{{/if}}
+					{{/if}}
+				</div>
+				<div class="card-footer">
+					<b>Language:</b> <a href='javascript:addToSearchQuery("lang", "{{language}}")' style="color: inherit;">{{language}}</a><br/>
+					{{#if tags}}
+						<b>Tags:</b>
+						{{#each tags}}
+							<a href='javascript:addToSearchQuery("tag", "{{this}}")' class="badge badge-default">{{this}}</a>
+						{{/each}}
+					{{/if}}
+				</div>
+			</div>
+		</script>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/handlebarsjs/4.0.5/handlebars.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

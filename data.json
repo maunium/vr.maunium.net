@@ -1,0 +1,248 @@
+[
+	{
+		"url": "https://vr.maunium.net/final.pdf",
+		"title": "A literature review of the effects and use cases of virtual reality",
+		"tags": ["Harmful effects", "Healthcare", "Literature review"],
+		"authors": ["Tulir Asokan", "Niko Poranen"],
+		"hasFullText": true,
+		"release": 2017,
+		"language": "Finnish",
+		"abstract": "In the context of this study, virtual reality refers to a virtual environment created by a head-mounted display. This kind of a virtual environment feels much more realistic than a virtual environment on a traditional display.<br/>Our literature review collects the current research about the harmful effects of virtual reality and the uses for virtual reality. In addition to the review, we used the JavaScript programming language to create a search system for research papers related to virtual reality. The system searches a JSON database containing research papers which we collected. The system makes it possible to search for papers researching specific topics or effects. The system also allows adding new papers quickly, which is important due to the quick advancements in the field. In the future we plan to add a feature to allow anyone to suggest new papers to be added to the system.<br/>Virtual reality can be used in a variety of contexts: Health care, rehabilitation, therapy, sports, teaching, et cetera. Applications related to therapy and rehabilitation, especially the possibility of treatment for mental illnesses, are currently the most researched ones. Many papers came to the conclusion that virtual reality can be quite useful for the treatment of various mental illnesses.<br/>Virtual reality in teaching is at its most useful in fields where teaching in vivo is too expensive or otherwise not practical. However, virtual reality cannot replace in vivo teaching completely, since there will always be minor differences between a virtual environment and a real environment.<br/>Virtual reality has some harmful effects: Many users experience virtual reality sickness, which is similar to travel sickness. Virtual reality can also cause paranoia for people with mental illnesses."
+	}, {
+		"url": "http://fulltext.study/download/537990.pdf",
+		"title": "Virtual reality induced symptoms and effects (VRISE): Comparison of head mounted display (HMD), desktop and projection display systems",
+		"tags": ["Harmful effects", "VRISE"],
+		"authors": ["Sarah Sharples", "Sue Cobb", "Amanda Moody", "John R. Wilson"],
+		"hasFullText": true,
+		"release": 2007,
+		"language": "English",
+		"abstract": "Virtual reality (VR) systems are used in a variety of applications within industry, education, public and domestic settings. Research assessing reported symptoms and side effects of using VR systems indicates that these factors combine to influence user experiences of virtual reality induced symptoms and effects (VRISE). Three experiments were conducted to assess prevalence and severity of sickness symptoms experienced in each of four VR display conditions; head mounted display (HMD), desktop, projection screen and reality theatre, with controlled examination of two additional aspects of viewing (active vs. passive viewing and light vs. dark conditions). Results indicate 60–70% participants experience an increase in symptoms pre–post exposure for HMD, projection screen and reality theatre viewing and found higher reported symptoms in HMD compared with desktop viewing (nausea symptoms) and in HMD compared with reality theatre viewing (nausea, oculomotor and disorientation symptoms). No effect of lighting condition was found. Higher levels of symptoms were reported in passive viewing compared to active control over movement in the VE. However, the most notable finding was that of high inter- and intra-participant variability. As this supports other findings of individual susceptibility to VRISE, recommendations are offered concerning design and use of VR systems in order to minimise VRISE."
+	}, {
+		"url": "https://static.oculus.com/documents/310-30023-01_Rift_HealthSafety_English.pdf",
+		"title": "Rift Health and Safety",
+		"tags": ["Harmful effects"],
+		"authors": ["Oculus Rift"],
+		"hasFullText": true,
+		"release": 2016,
+		"language": "English",
+		"abstract": "Abstract not found. Please view full text."
+	}, {
+		"url": "https://pdfs.semanticscholar.org/2236/e168890df3e4fc8b18806efc5f8697d762ce.pdf",
+		"title": "From Telehealth to E-Health: Internet and Distributed Virtual Reality in Health Care",
+		"tags": ["Healthcare"],
+		"authors": ["Giuseppe Riva"],
+		"hasFullText": true,
+		"release": 2000,
+		"language": "English",
+		"abstract": "Since the development of methods of electronic communication, clinicians have been using information and communication technologies for the exchange of health-related information. However, the emergence of new shared media, such as the Internet and virtual reality are changing the ways in which people relate, communicate, and live. E-health, the integration of telehealth technologies with the Internet, is the next logical step of this process. To date, some e-health applications have improved the quality of health care, and later they will lead to substantial cost savings. However, e-health is not simply a technology but a complex technological and relational process. In this sense, clinicians and health care providers that want to successfully exploit e-health need to pay significant attention to technology, ergonomics, human factors and organizational changes in the structure of the relevant health service. The goal of the article is to analyze the processes by which e-health applications can contribute to the delivery of state-of-the-art health services. Particular attention is given to shared hypermedia and distributed virtual reality worlds."
+	}, {
+		"url": "http://www.brainline.org/downloads/PDFs/SWOT_Analysis_VR_Rizzo.pdf",
+		"title": "A SWOT Analysis of the Field of Virtual Reality Rehabilitation and Therapy",
+		"tags": ["Healthcare"],
+		"authors": ["Albert Rizzo", "Gerard Jounghyun Kim"],
+		"hasFullText": true,
+		"release": 2005,
+		"language": "English",
+		"abstract": "The use of virtual-reality technology in the areas of rehabilitation and therapy continues to grow, with encouraging results being reported for applications that address human physical, cognitive, and psychological functioning. This article presents a SWOT (Strengths, Weaknesses, Opportunities, and Threats) analysis for the field of VR rehabilitation and therapy. The SWOT analysis is a commonly employed framework in the business world for analyzing the factors that influence a company’s competitive position in the marketplace with an eye to the future. However, the SWOT framework can also be usefully applied outside of the pure business domain. A quick check on the Internet will turn up SWOT analyses for urban-renewal projects, career planning, website design, youth sports programs, and evaluation of academic research centers, and it becomes obvious that it can be usefully applied to assess and guide any organized human endeavor designed to accomplish a mission. It is hoped that this structured examination of the factors relevant to the current and future status of VR rehabilitation will provide a good overview of the key issues and concerns that are relevant for understanding and advancing this vital application area."
+	}, {
+		"url": "https://www.computer.org/csdl/mags/co/2005/09/r9025-abs.html",
+		"title": "From Visual Simulation to Virtual Reality to Games",
+		"tags": ["Teaching"],
+		"authors": ["Michael Zyda"],
+		"hasFullText": false,
+		"release": 2005,
+		"language": "English",
+		"abstract": "During the past decades, the virtual reality community has based its development on a synthesis of earlier work in interactive 3D graphics, user interfaces, and visual simulation. Currently, the VR field is transitioning into work influenced by video games. Because much of the research and development being conducted in the games community parallels the VR community's efforts, it has the potential to affect a greater audience. Given these trends, VR researchers who want their work to remain relevant must realign to focus on game research and development. Leveraging technology from the visual simulation and virtual reality communities, serious games provide a delivery system for organizational video game instruction and training."
+	}, {
+		"url": "http://cdn.intechopen.com/pdfs/39049/InTech-Virtual_realities_in_the_treatment_of_mental_disorders_a_review_of_the_current_state_of_research.pdf",
+		"title": "Virtual Realities in the Treatment of Mental Disorders: A Review of the Current State of Research",
+		"tags": ["Healthcare", "Literature review"],
+		"authors": ["Christiane Eichenberg", "Carolin Wolters"],
+		"hasFullText": true,
+		"release": 2012,
+		"language": "English",
+		"abstract": "Abstract not found. Please view full text."
+	}, {
+		"url": "https://stanford.edu/class/ee267/Spring2016/report_becker_ngo.pdf",
+		"title": "Mitigating Visually-Induced Motion Sickness in Virtual Reality",
+		"tags": ["Harmful effects", "VIMS"],
+		"authors": ["Jackie Becker", "Thu Ngo"],
+		"hasFullText": true,
+		"release": 2016,
+		"language": "English",
+		"abstract": "Visually-induced motion sickness (VIMS) remains a major impediment to the growth of virtual reality technologies. Symptoms of nausea prevent users from staying in virtual environments, especially in experiences that emphasize movement. Our research concerns techniques to mitigate this problem; previous research has shown that techniques used to reduce VIMS in the physical world can also be successful in virtual ones, suggesting that exploring different techniques of VIMS-reduction could be worthwhile. We chose to study a concept we denote ”anchoring”: the idea of having a point of reference (typically a stationary object) to focus on as motion occurs. Ultimately, we found that in a majority of test subjects adding an anchor to virtual environments was successful in decreasing symptoms VIMS, as measured through responses to the Simulator Sickness Questionnaire (SSQ). Future research would aim to remove possible confounding variables such as our non-wireless setup, which required users to periodically stop their movement, since this could have also reduced VIMS symptoms; additionally, to ensure our results are generalizable a study on a larger and more diverse sample of subjects would be necessary."
+	}, {
+		"url": "http://pcwww.liv.ac.uk/~pcknox/index_files/pubs/mcapk14.pdf",
+		"title": "The effect of a projected virtual reality training environment on vision symptoms in undergraduates",
+		"tags": ["Harmful effects"],
+		"authors": ["Meritxell Cristino Amenos", "Paul C. Knox"],
+		"hasFullText": true,
+		"release": 2014,
+		"language": "English",
+		"abstract": "<b>Aims:</b> Virtual reality (VR) systems induce a range of unwelcome symptoms in a proportion of the population. A similar phenomenon has been reported with 3D presentation systems. Given the increasingly wide deployment of such systems, we investigated the effect of exposure to a projected VR training simulation on a group of undergraduates.<br/><b>Methods:</b> Two groups of students attended two teaching sessions using a 3D stereoscopic back-projector system with active stereo glasses. One group was given a full orthoptic and optometric assessment before they attended their first session. Participants completed the Virtual Reality Symptom Questionnaire (VRSQ) before and after both sessions.<br/><b>Results:</b> While no participant reported any gross discomfort after either session, therewas a statistically significant increase in VRSQ symptom scores from pre- to post-exposure on the first session that was not observed in the second session. Pre-exposure scores were statistically significantly different between sessions; analysis of the difference between individual pre- and post-exposure results from both sessions revealed no consistent effects. There was a statistically significant correlation between prism fusion amplitude and symptom scores.<br/><b>Conclusions:</b> We found no evidence of uncomfortable symptoms in a group of undergraduate students. Projected VR systems, in which participants are largely passive observers, are less likely to induce eye symptoms than head mounted systems which make higher demands on the visual system. We also found that in a typical undergraduate class there were a number of students with no or low stereopsis who could derive no benefit from a VR system."
+	}, {
+		"url": "http://www.hse.gov.uk/research/crr_pdf/2000/crr00274.pdf",
+		"title": "Incidence of Virtual Reality Induced Symptoms and Effects (VRISE) in desktop and projection screen display systems",
+		"tags": ["Harmful effects", "VRISE"],
+		"authors": ["Sarah Nichols", "Amanda D Ramsey", "Sue Cobb", "Helen Neale", "Mirabelle D'Cruz", "John R Wilson"],
+		"hasFullText": true,
+		"release": 2000,
+		"language": "English",
+		"abstract": "Abstract not available due to copyright. Please view full text."
+	}, {
+		"url": "http://schizophreniabulletin.oxfordjournals.org/content/40/6/1194.full.pdf",
+		"title": "Brave New Worlds—Review and Update on Virtual Reality Assessment and Treatment in Psychosis",
+		"tags": ["Healthcare", "Literature review"],
+		"authors": ["Wim Veling", "Steffen Moritz", "Mark van der Gaag"],
+		"hasFullText": true,
+		"release": 2014,
+		"language": "English",
+		"abstract": "In recent years, virtual reality (VR) research on psychotic disorders has been initiated. Several studies showed that VR can elicit paranoid thoughts about virtual characters (avatars), both in patients with psychotic disorders and healthy individuals. Real life symptoms and VR experiences were correlated, lending further support to its validity. Neurocognitive deficits and difficulties in social behavior were found in schizophrenia patients, not only in abstract tasks but also using naturalistic virtual environments that are more relevant to daily life, such as a city or encounters with avatars. VR treatments are conceivable for most dimensions of psychotic disorders. There is a small but expanding literature on interventions for delusions, hallucinations, neurocognition, social cognition, and social skills; preliminary results are promising. VR applications for assessment and treatment of psychotic disorders are in their infancy, but appear to have a great potential for increasing our understanding of psychosis and expanding the therapeutic toolbox."
+	}, {
+		"url": "https://www.researchgate.net/profile/Cristina_Botella/publication/51779483_Virtual_reality_exposure_therapy_in_anxiety_disorders_A_quantitative_meta-analysis/links/0912f50affd26ec261000000.pdf",
+		"title": "Virtual reality exposure therapy in anxiety disorders: A quantitative meta-analysis",
+		"tags": ["Healthcare"],
+		"authors": ["David Opriş", "Sebastian Pintea", "Azucena Garcia-Palacios", "Cristina Botella"],
+		"hasFullText": true,
+		"release": 2011,
+		"language": "English",
+		"abstract": "Virtual reality exposure therapy (VRET) is a promising intervention for the treatment of the anxiety disorders. The main objective of this meta-analysis is to compare the efficacy of VRET, used in a behavioral or cognitive-behavioral framework, with that of the classical evidence-based treatments, in anxiety disorders. A comprehensive search of the literature identified 23 studies (n=608) that were included in the final analysis. The results show that in the case of anxiety disorders, (1) VRET does far better than the waitlist control; (2) the post-treatment results show similar efficacy between the behavioral and the cognitive behavioral interventions incorporating a virtual reality exposure component and the classical evidence-based interventions, with no virtual reality exposure component; (3) VRET has a powerful real-life impact, similar to that of the classical evidence-based treatments; (4) VRET has a good stability of results over time, similar to that of the classical evidence-based treatments; (5) there is a dose–response relationship for VRET; and (6) there is no difference in the dropout rate between the virtual reality exposure and the in vivo exposure. Implications are discussed."
+	}, {
+		"url": "http://www.cs.vu.nl//~eliens/sg/local/cyber/psychosis.pdf",
+		"title": "Virtual Reality Experiments Linking Social Environment and Psychosis: A Pilot Study",
+		"tags": ["Healthcare"],
+		"authors": ["Wim Veling", "Willem-Paul Brinkman", "Emily Dorrestijn", "Mark van der Gaag"],
+		"hasFullText": true,
+		"release": 2014,
+		"language": "English",
+		"abstract": "Initial studies with healthy subjects and individuals with high risk for psychosis have suggested that virtual reality (VR) environments may be used to investigate social and psychological mechanisms of psychosis. One small study reported that VR can safely be used in individuals with current persecutory delusions. The present pilot study investigated the feasibility and potential negative side effects of exposure to different virtual social risk environments in patients with first episode psychosis and in healthy controls. Seventeen patients with first episode psychosis (FEP) and 24 healthy control subjects (HC) participated in four virtual experiments during which they walked for 3.5–4 minutes in a virtual cafe, looking for avatars with digits on their clothing. The level of paranoid thoughts, as well as psychological, physiological, and behavioral correlates of paranoid thoughts, were measured in different virtual social risk environments, manipulating two factors: population density and ethnicity of avatars. FEP and HC frequently had paranoid thoughts about avatars. Paranoia in the real world correlated strongly with paranoid thoughts about avatars in virtual environments (Spearman’s q=0.67 and 0.54 in FEP and HC respectively, p < 0.01). FEP kept a smaller distance to avatars than HC. In FEP, but not in HC, galvanic skin response was significantly stronger in virtual environments with avatars of other ethnicity than in the own ethnicity condition. These results suggest that VR is an acceptable and sufficiently realistic method to use in patients with first episode psychosis. VR research may help to increase our understanding of the social and psychological mechanisms of psychosis and to develop new treatment applications."
+	}, {
+		"url": "http://bjp.rcpsych.org/content/bjprcpsych/191/51/s63.full.pdf",
+		"title": "Virtual reality and paranoid ideations in people with an 'at-risk mental state' for psychosis",
+		"tags": ["Risks"],
+		"authors": ["Lucia R. Valmaggia", "Daniel Freeman", "Catherine Green", "Philippa Garety", "David Swapp", "Angus Antley", "Corinne Prescott", "David Fowler", "Elizabeth Kuipers", "Paul Bebbington", "Mel Slater", "Matthew Broome", "Philip K. McGuire"],
+		"hasFullText": true,
+		"release": 2007,
+		"language": "English",
+		"abstract": "<b>Background:</b> Virtual reality provides a means of studying paranoid thinking in controlled laboratory conditions. However, this method has not been used with a clinical group.<br/><b>Aims:</b> To establish the feasibility and safety of using virtual reality methodology in people with an at-risk mental state and to investigate the applicability of a cognitive model of paranoia to this group.<br/><b>Method:</b> Twenty-one participants with an at-risk mental state were assessed before and after entering a virtual reality environment depicting the inside of an underground train.<br/><b>Results:</b> Virtual reality did not raise levels of distress atthe time of testing or cause adverse experiences over the subsequent week. Individuals attributed mental states to virtual reality characters including hostile intent. Persecutory ideation in virtual reality was predicted by higher levels of trait paranoia, anxiety, stress, immersion in virtual reality, perseveration and interpersonal sensitivity.<br/><b>Conclusions:</b> Virtual reality is an acceptable experimental technique for use with individuals with at-risk mental states. Paranoia in virtual reality was understandable interms of the cognitive model of persecutory delusions.<br/><b>Declaration of interest:</b> None."
+	}, {
+		"url": "http://psycnet.apa.org/journals/abn/119/1/83.pdf",
+		"title": "Testing the Continuum of Delusional Beliefs: An Experimental Study Using Virtual Reality",
+		"tags": [],
+		"authors": ["Daniel Freeman", "Katherine Pugh", "Natasha Vorontsova"],
+		"hasFullText": true,
+		"release": 2010,
+		"language": "English",
+		"abstract": "A key problem in studying a hypothesized spectrum of severity of delusional ideation is determining that ideas are unfounded. The first objective was to use virtual reality to validate groups of individuals with low, moderate, and high levels of unfounded persecutory ideation. The second objective was to investigate, drawing upon a cognitive model of persecutory delusions, whether clinical and nonclinical paranoia are associated with similar causal factors. Three groups (low paranoia, high nonclinical paranoia, persecutory delusions) of 30 participants were recruited. Levels of paranoia were tested using virtual reality. The groups were compared on assessments of anxiety, worry, interpersonal sensitivity, depression, anomalous perceptual experiences, reasoning, and history of traumatic events. Virtual reality was found to cause no side effects. Persecutory ideation in virtual reality significantly differed across the groups. For the clear majority of the theoretical factors there were dose–response relationships with levelsof paranoia. This is consistent with the idea of a spectrum of paranoia in the general population. Persecutory ideation is clearly present outside of clinical groups and there is consistency across the paranoia spectrum in associations with important theoretical variables."
+	}, {
+		"url": "https://www.theseus.fi/bitstream/handle/10024/120676/Jussila_Ville.pdf",
+		"title": "Virtual reality",
+		"tags": ["Teaching", "Literature review"],
+		"authors": ["Ville Jussila"],
+		"hasFullText": true,
+		"release": 2016,
+		"language": "Finnish",
+		"abstract": "The objective of this thesis was to obtain information about virtual reality and its possible uses, as well as find out if virtual reality would be of any use in education. This thesis also covers different ways of creating content for virtual reality, and includes a short summary about making a small virtual reality demo. The thesis was commissioned by Häme University of Applied Sciences Ltd. Because personal experience from virtual reality has only been acquired through using a Google Cardboard device, information was gathered from the internet. Lack of a proper device somewhat limited the research of possible uses. The conclusion of this thesis is that virtual reality can be used for many different purposes and its use in education is best found out by experimenting. During the making of this thesis it became clear that there is a demand for more content, and thus content creation could be one reason to acquire VR-devices. This thesis should be helpful for deciding between Vdevices, if such are acquired."
+	}, {
+		"url": "http://graphics.cs.brown.edu/~jjl/pubs/cybersick.pdf",
+		"title": "A Discussion of Cybersickness in Virtual Environments",
+		"tags": ["Harmful effects"],
+		"authors": ["Joseph J. LaViola Jr."],
+		"hasFullText": true,
+		"release": 2000,
+		"language": "English",
+		"abstract": "An important and troublesome problem with current virtual environment (VE) technology is the tendency for some users to exhibit symptoms that parallel symptoms of classical motion sickness both during and after the VE experience. This type of sickness, cybersickness, is distinct from motion sickness in that the user is often stationary but has a compel-ling sense of self motion through moving visual imagery. Unfortunately, there are many factors that can cause cyber sickness and there is no foolproof method for eliminating the problem.In this paper, I discuss a number of the primary factors that contribute to the cause of cybersickness, describe three conflicting cybersickness theories that have been postulated, and discuss some possible methods for reducing cybersickness in VEs."
+	}, {
+		"url": "http://journals.sagepub.com/doi/pdf/10.1177/1541931215591397",
+		"title": "Mitigating Visually Induced Motion Sickness: A virtual hand-eye coordination task",
+		"tags": ["Harmful effects", "VIMS"],
+		"authors": ["Michael K Curtis", "Kayla Dwason", "Kelli Jackson", "Liat Litwin", "Chase Meusel", "Michael C. Dorneich", "Stephen B. Gilbert", "Jonathan Kelly", "Richard Stone", "Eliot Winer"],
+		"hasFullText": true,
+		"release": 2015,
+		"language": "English",
+		"abstract": "Virtual reality has grown rapidly over the past decade, yet visually induced motion sickness (VIMS), continues to affect the usability of this technology. Aside from medicine, physical hand-eye-coordination tasks have been found to be effective in mitigating symptoms of VIMS, however the need for equipment outside of virtual reality limits the usefulness of these mitigation techniques. In this study, 21 participants were sickened via a virtual obstacle course and used one of two mitigation techniques. The first, natural decay, is simply waiting outside the virtual environment (VE) for symptoms to subside; the other was a virtual peg-in-hole task, performed in the VE with a gamepad. A paired samples t-test confirmed that the virtual obstacle course induced VIMS. Both mitigation techniques significantly lessened the symptoms of VIMS, but there were no significant differences in the effectiveness of mitigation between the two techniques. A virtual mitigation method allowing continued immersion in a VE would pave the way for long-term immersion virtual reality studies, involving topics such as vigilance or training."
+	}, {
+		"url": "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA295861",
+		"title": "Simulator Sickness in Virtual Environments",
+		"tags": ["Harmful effects"],
+		"authors": ["Eugenia M. Kolasinski"],
+		"hasFullText": true,
+		"release": 1995,
+		"language": "English",
+		"abstract": "Virtual Reality (also known as Virtual Environment or VE) technology shows many promising applications in areas of training, medicine, architecture, astronomy, data handling, teleoperation, and entertainment. A potential threat to using this technology is the mild to severe discomfort that some users experience during or after a VE session. Similar effects have been observed with flight and driving simulators. The simulator sickness literature forms a solid background for the study of sickness in virtual environments and many of the findings may be directly applicable. This report reviews literature concerning simulator sickness, motion sickness and virtual environments. Forty factors that may be associated with simulator sickness in virtual environments are identified. These factors form three global categories: subject, simulator and task. The known and predicted effects of these factors on sickness in VEs are discussed. A table summarizes the information presented in this report. The information can be used as a guide for future research concering simulator sickness in virtual environments."
+	}, {
+		"url": "http://ieeexplore.ieee.org/document/6797533/",
+		"title": "Simulator Sickness Depends on Frequency of the Simulator Motion Mismatch: An Observation",
+		"tags": ["Harmful effects"],
+		"authors": ["Eric L. Groen", "Jelte E. Bos"],
+		"hasFullText": false,
+		"noCachedLink": true,
+		"release": 2014,
+		"language": "English",
+		"abstract": "In this study we describe a new approach to relate simulator sickness ratings with the main frequency component of the simulator motion mismatch, that is, the computed difference between the time histories of simulator motion and vehicle motion, respectively. During two driving simulator experiments in the TNO moving-base driving simulator—that were performed for other reasons than the purpose of this study—we collected simulator sickness questionnaires from in total 58 subjects. The main frequency component was computed by means of the power spectrum density of the computed mismatch signal. We hypothesized that simulator sickness incidence depends on this frequency component, in a similar way as the incidence of “real” motion sickness, such as sea sickness, depends on motion frequency. The results show that the simulator sickness ratings differed between both driving simulator experiments. The experiment with its main frequency component of the mismatch signal of 0.08 Hz had significantly higher simulator sickness incidence than the experiment with its main frequency at 0.46 Hz. Since the experimental design differed between both experiments, we cannot exclusively attribute the difference in sickness ratings to the frequency component, but the observation does suggest that quantitative analysis of the mismatch between the motion profiles of the simulator and the vehicle may greatly improve our understanding of the causal mechanism of simulator sickness."
+	}, {
+		"url": "https://www.researchgate.net/profile/Cristina_Botella/publication/11125947_Virtual_reality_in_the_treatment_of_spider_phobia_A_controlled_study/links/0c96052c45af87ae27000000.pdf",
+		"title": "Virtual reality in the treatment of spider phobia: A controlled study",
+		"tags": ["Healthcare"],
+		"authors": ["Azucena Gracia-Palacios", "Albert Carlin", "Thomas Fumess", "Cristina Botella"],
+		"hasFullText": true,
+		"release": 2002,
+		"language": "English",
+		"abstract": "This study explored whether virtual reality (VR) exposure therapy was effective in the treatment of spider phobia. We compared a treatment condition vs. a waiting list condition in a between group design with 23 participants. Participants in the VR treatment group received an average of four one-hour exposure therapy sessions. VR exposure was effective in treating spider phobia compared to a control condition as measured with a Fear of Spiders questionnaire, a Behavioural Avoidance Test (BAT), and severity ratings made by the clinician and an independent assessor. Eighty-three percent of patients in the VR treatment group showed clinically significant improvement compared with 0% in the waiting list group, and no patients dropped out. This study shows that VR exposure can be effective in the treatment of phobias."
+	}, {
+		"url": "http://sro.sussex.ac.uk/2170/1/Luckin2006Making163.pdf",
+		"title": "“Making it real”: Exploring the potential of Augmented Reality for teaching primary school science",
+		"tags": ["Teaching", "Augmented reality"],
+		"authors": ["Lucinda Kerawalla", "Rosemary Luckin", "Simon Seljeflot", "Adrian Woolard"],
+		"hasFullText": true,
+		"release": 2006,
+		"language": "English",
+		"abstract": "The use of Augmented Reality (AR) in formal education could prove a key component in future learning environments that are richly populated with a blend of hardware and software applications. However, relatively little is known about the potential of this technology to support teaching and learning with groups of young children in the classroom. Analysis of teacher-child dialogue in a comparative study between use of an AR virtual mirror interface and more traditional science teaching methods for 10-year-old children, revealed that the children using AR were less engaged than those using traditional resources. We suggest four design requirements that need to be considered if AR is to be successfully adopted into classroom practice. These requirements are: flexible content that teachers can adapt to the needs of their children, guided exploration so learning opportunities can be maximised, in a limited time, and attention to the needs of institutional and curricular requirements. "
+	}, {
+		"url": "http://scholar.lib.vt.edu/ejournals/JITE/v41n4/ausburn",
+		"title": "Desktop Virtual Reality: A Powerful New Technology for Teaching and Research in Industrial Teacher Education",
+		"tags": ["Teaching"],
+		"authors": ["Lynna J. Ausburn", "Floyd B. Ausburn"],
+		"hasFullText": true,
+		"cacheFormat": "html",
+		"release": 2004,
+		"language": "English",
+		"abstract": "The use of visual technologies for teaching and learning in industrial education has produced dramatic extensions of the once traditional lectures, demonstrations, and hands-on experiences. From the introduction of color photography to full-motion video to computer-generated presentations with graphics and animations, visual technologies have enhanced the preparation of workforce specialists and technicians by bringing into classrooms and laboratories a breadth and depth of realism that has enhanced comprehension, increased learning performance, and reduced training time. Occasionally, however, there arrives a training technology that causes a realization that \"this changes everything.\" Such a technology is virtual reality (VR). The capabilities and possibilities for VR technology may open doors to new vistas in industrial and technical instruction and learning, and the research that supports them."
+	}, {
+		"url": "http://www.academia.edu/download/31690325/JCMST203293.pdf",
+		"title": "3D-Virtual Reality in Science Education: An Implication for Astronomy Teaching",
+		"tags": ["Teaching"],
+		"authors": ["Yoav Yair", "Rachel Mintz", "Shai Litvak"],
+		"hasFullText": true,
+		"release": 2001,
+		"language": "English",
+		"abstract": "This work presents a new virtual environment (VE) which employs a dynamic 3-D model of the solar system. It is based on powerful scientific visualization techniques and can be used as an effective aide in astronomy teaching. The learner \"enters\" a virtual model of the physical world, journeys through it, zooms in or out as he or she wishes, changes his or her view point and perspective, as the virtual world continues to ìbehaveî and operate in its usual manner. The continual motion of the planets generates day and night, seasons, eclipses, and phasesótopics that are customarily hard to grasp, especially at young age. The model allows for a powerful learning experience, and facilitates the mental construction of three-dimensional space, where objects are varied and different, but share common features and obey the same physical principles. The new platform helps to overcome the inherent geocentric view and ensures the transition to a scientific, heliocentric view of the solar system."
+	}, {
+		"url": "http://cdmc.georgetown.edu/wp-content/uploads/2015/03/Calvert-Tan-1994.pdf",
+		"title": "Impact of Virtual Reality on Young Adults’ Physiological Arousal and Aggressive Thoughts: Interaction Versus Observation",
+		"tags": [],
+		"authors": ["Sandra L. Calvert", "Siu-Lan Tan"],
+		"hasFullText": true,
+		"release": 1994,
+		"language": "English",
+		"abstract": "The purpose of this study was to compare the impact of playing versus observing a violent virtual reality game on young adults’ arousal levels, feelings of hostility, and aggressive thoughts. Physiological arousal and aggressive thoughts, but not hostile feelings, were higher for participants than for observers of the virtual reolity game. Results suggest that technologies varying from observational to participatory modes of interaction can have differing physiological and cognitive consequences."
+	}, {
+		"url": "https://pdfs.semanticscholar.org/8b7b/c01f15f51efed65837fda1f27a205753d637.pdf",
+		"title": "The Effect of Environment Characteristics and User Interaction on Levels of Virtual Environment Sickness",
+		"tags": [],
+		"authors": ["Roy A. Ruddle"],
+		"hasFullText": true,
+		"release": 2004,
+		"language": "English",
+		"abstract": "Data are reported for symptoms of virtual environment (VE) sickness that arose in 10 behavioral experiments. In total, 134 participants took part in the experiments and were immersed in VEs for approximately 150 hours. Nineteen of the participants reported major symptoms and two were physically sick. The tasks that participants’ performed ranged from manipulating virtual objects that they “held” in their hands, to traveling distances of 10 km or more while navigating virtual mazes. The data are interpreted within a framework provided by the Virtual Environment Description and Classification System. Environmental dimensions and visual complexity had little effect on the severity of participants’ symptoms. Long periods of immersion tended to produce major ocular-motor symptoms. Nausea was affected by the type of movement made to control participants’ view, and was particularly severe when participants had to spend substantial amounts of time (3%) looking steeply downwards at their virtual feet. Contrary to expectations, large rapid movements had little effect on most participants, and neither did movements that were not under participants’ direct control. "
+	}, {
+		"url": "http://campar.in.tum.de/pub/reiners1998iwar/reiners1998iwar.pdf",
+		"title": "Augmented Reality for Construction Tasks: Doorlock Assembly",
+		"tags": ["Augmented Reality"],
+		"authors": ["Dirk Reiners", "Didier Stricker", "Gudrun Klinker", "Stefan Müller"],
+		"hasFullText": true,
+		"release": 1998,
+		"language": "English",
+		"abstract": "Augmented Reality is a technology that integrates pictures of virtual objects into images of the real world.  Besides the technical problems still to be solved, for industry to be interested in this technology the additional amount of work needed to use the technology in relation to the benefit has to be visible. Furthermore the question how this integrates into the information technology infrastructure of the company is important. This paper describes an Augmented Reality demonstrator for the task of doorlock assembly into a car door that was developed trying to create a practical, realistic application that can transport the concepts behind Augmented Reality to a casual observer. To reach that goal a new fast and robust optical tracking algorithm was developed and integrated into a three-dimensional animation and rendering system, creating a real-time fully three-dimensional HMD-based training application showing how to assemble the doorlock into the door. The system was demonstrated to the general public at the Hannover Industrial Fair 1998 and this demonstration of Augmented Reality for one of the first times to a large non-expert audience created a lot of interest intothis new area."
+	}
+]
